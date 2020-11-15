@@ -297,13 +297,7 @@ if __name__=='__main__':
   print("Adversarial Classification: ", adv_class)
   print("Success Rate: ", (1.0-acc)*100.0)
   print("Total distortion: ", np.sum((adv-inputs)**2)**.5)
-
-  # for saving the mnist samples
-  # for i in range(len(inputs)):
-  #   save(inputs[i], "original_"+str(i)+".png")
-  #   save(adv[i], "adversarial_"+str(i)+".png")
-  #   save(adv[i] - inputs[i], "diff_"+str(i)+".png")
-
+  
   #visualization of created mnist adv examples 
   # cnt=0
   # plt.figure(figsize=(10,10))
