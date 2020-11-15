@@ -18,7 +18,7 @@ To run the attacks run the
 ```
 python zoo_l2_attack_black.py
 ```
-Both untargeted and targeted attack are accessible via the python code. For more details go through the code zoo_l2_attack_black.py and the paper https://arxiv.org/abs/1708.03999
+Both untargeted and targeted attack are accessible via above code all the changes (comment/uncomment) for transition from ZOO_Adam/ZOO_Newton or CIFAR10/MNIST are from line 259-262, 270/271, 274-277 and for visualtion line 307/329. For more details go through the code zoo_l2_attack_black.py and the paper https://arxiv.org/abs/1708.03999
 
 ## Sample Results
 #### ZOO_Adam 
