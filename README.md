@@ -28,4 +28,4 @@ Both untargeted and targeted attack are accessible via the python code. For more
 ![](/sample_results/adam_untargeted_mnist.png)
 #### ZOO_Newton
 ##### Targeted on MNIST
-![]((/sample_results/newton_targeted_mnist.png)
+![](/sample_results/newton_targeted_mnist.png)
