@@ -1,5 +1,5 @@
 # ZOO_Attack_PyTorch
-This repository contains the PyTorch implementation of Zeroth Order Black Box Attack (https://arxiv.org/abs/1708.03999) using MNIST and CIFAR10 dataset. This is the exact replica as far possible of the ZOO Attack (https://github.com/IBM/ZOO-Attack) which was implemented in Tensorflow and Keras. The results match almost as same as the paper evaluation results for MNIST and CIFAR10 for both targeted and untargeted attack all with 100% success rate on the 7 layer CNNs model trained on MNIST with 99.5% val accuracy and on CIFAR10 with 80% val accuracy as done in the original paper work. Both ZOO_Adam and ZOO_Newton methods of Coordinate Descent Solvers are implemented.
+This repository contains the PyTorch implementation of Zeroth Order Black Box Attack using MNIST and CIFAR10 dataset. This is the exact replica as far possible of the ZOO Attack (https://github.com/IBM/ZOO-Attack) which was implemented in Tensorflow and Keras. The results match almost as same as the paper evaluation results for MNIST and CIFAR10 for both targeted and untargeted attack all with 100% success rate on the 7 layer CNNs model trained on MNIST with 99.5% val accuracy and on CIFAR10 with 80% val accuracy as done in the original paper work. Both ZOO_Adam and ZOO_Newton methods of Coordinate Descent Solvers are implemented.
 
 ## Setup and train models
 The code is tested with Python 3.7.6 and PyTorch 1.6.0. The following packages are required:
@@ -18,8 +18,14 @@ To run the attacks run the
 ```
 python zoo_l2_attack_black.py
 ```
-Both untargeted and targeted attack are accessible via the python code. For more details go through the code zoo_l2_attack_black.py
+Both untargeted and targeted attack are accessible via the python code. For more details go through the code zoo_l2_attack_black.py and the paper https://arxiv.org/abs/1708.03999
 
 ## Sample Results
-[]()
-[]()
+#### ZOO_Adam 
+##### Untargeted on CIFAR10
+![](/sample_results/adam_untargeted_cifar10.png)
+##### Untargeted on CIFAR10
+![](/sample_results/adam_untargeted_mnist.png)
+#### ZOO_Newton
+##### Targeted on MNIST
+![]((/sample_results/newton_targeted_mnist.png)
