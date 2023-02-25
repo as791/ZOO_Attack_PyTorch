@@ -31,3 +31,6 @@ Both untargeted and targeted attack are accessible via above code all the change
 #### ZOO_Newton
 ##### Targeted on MNIST
 ![](/sample_results/newton_targeted_mnist.png)
+
+
+**Note : For larger dataset google colab viewer [link](https://colab.research.google.com/drive/1_rDu0LNAI9kg490rV9PMxb55Wwbj13aD?usp=sharing) [NOT TESTED]**
