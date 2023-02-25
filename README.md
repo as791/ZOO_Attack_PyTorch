@@ -1,7 +1,7 @@
 # ZOO: Zeroth Order Optimization Based Adversarial Black Box Attack (PyTorch)
 This repository contains the PyTorch implementation of Zeroth Order Optimization Based Adversarial Black Box Attack(https://arxiv.org/abs/1708.03999) using MNIST and CIFAR10 dataset. This is the exact replica as far possible of the ZOO Attack (https://github.com/IBM/ZOO-Attack) which was originally implemented in Tensorflow. The results match almost as same as the paper evaluation results for MNIST and CIFAR10 for both targeted and untargeted attack all with 100% success rate on the 7 layer CNNs model trained on MNIST with 99.5% val accuracy and on CIFAR10 with 80% val accuracy as done in the original paper work. Both ZOO_Adam and ZOO_Newton methods of Coordinate Descent Solvers are implemented.
 
-**Note: This doesn't contain implementation of importance sampling, hierarchical attack, and dimentional reduction right now (as its mainly needed for large image sized dataset like ImageNet).**
+**Note: This doesn't contain implementation of importance sampling, hierarchical attack, and dimentional reduction right now (as its mainly needed for large image sized dataset like ImageNet). For larger dataset google colab viewer [link](https://colab.research.google.com/drive/1_rDu0LNAI9kg490rV9PMxb55Wwbj13aD?usp=sharing) [NOT TESTED]**
 
 ## Setup and train models
 The code is tested with Python 3.7.6 and PyTorch 1.6.0. The following packages are required:
@@ -33,4 +33,3 @@ Both untargeted and targeted attack are accessible via above code all the change
 ![](/sample_results/newton_targeted_mnist.png)
 
 
-**Note : For larger dataset google colab viewer [link](https://colab.research.google.com/drive/1_rDu0LNAI9kg490rV9PMxb55Wwbj13aD?usp=sharing) [NOT TESTED]**
